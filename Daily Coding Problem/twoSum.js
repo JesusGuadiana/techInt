@@ -3,7 +3,7 @@
 //Example [10, 15, 3, 7], k = 17 returns true;
 
 
-function twoSum(arr, k){
+var twoSum = function(arr, k){
   var l = 0;
   var r = arr.length - 1;
 
@@ -18,5 +18,5 @@ function twoSum(arr, k){
       r--;
     }
   }
-  return false
+  return false;
 }
